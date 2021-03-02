@@ -1,11 +1,8 @@
-
 function prompt() {
     var person = window.prompt("Please enter your name");
-    if (person != null) {
-      document.getElementById("viewsource").innerHTML =
-      "Hello " + person + "! How are you today?";
+    alert("Your name is " + person);
     }
-}
+
 
 
 export default prompt;
