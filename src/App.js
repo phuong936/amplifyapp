@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Compliment Generator</h1>
-      </header>
-    <script>
+        <script>
         var name = window.prompt("What is your name");
     </script> 
+      </header>
     </div>
   );
 }
